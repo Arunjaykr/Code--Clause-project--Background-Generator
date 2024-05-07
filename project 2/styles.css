@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%; 
+    width: 100%; 
+}
+
+body {
+    background-image: url('1.jpg'); 
+    background-size: 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+  
+  h1 {
+    color:black;
+    padding: 20px;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.8rem;
+  }
+
+  .controls label {
+    margin-right: 10px;
+    font-family: monotype corsiva; 
+    font-size: 40px;
+    color:red; 
+  }
+  
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .controls option {
+    font-family: monotype corsiva; 
+    font-size: 20px;
+  }
+  
+  .preview {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #333;
+    background: linear-gradient(to right, #3950a3, #0ddb9a)
+  }
+  
